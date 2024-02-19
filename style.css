@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    background:linear-gradient(125deg ,#00fabe,#ff4e);
+}
+.container{
+    height: 500px;
+    width:300px;
+    border-radius: 20px;
+    /* background-color: blue; */
+    gap: 10px;
+    margin-top: 20px;
+    background: linear-gradient(135deg , #00feba,#5b548a);
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+.navbar >input{
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    border: 0px;
+    background-color: #ebfffc;
+    font-size: 20px;
+}
+.navbar >button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+.navbar >button>i{
+    font-size: larger;
+}
+
+.navbar >button:hover{
+    background-color: rgb(211, 162, 98);
+    box-shadow: 2px 2px 20px lightcoral;
+}
+
+.main{
+    height: 270px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 15px;
+    padding: 10px; */
+    gap: 10px;
+}
+.main >img{
+    height: 130px;
+    width: 130px;
+}
+
+/* */
+
+.main >h1{
+    font-size: 50px;
+}
+.main >h2{
+    font-size: 30px;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.Humidity{
+    display: flex;
+    justify-content:space-evenly;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Humidity >img{
+    height: 50px;
+    width: 50px;
+}
+.Humidity >h1{
+    font-size: 20px;
+}
+.Humidity >h2{
+    font-size: 10px;
+}
+.wind{
+    display: flex;
+    justify-content:space-evenly;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.wind >img{
+    height: 50px;
+    width: 50px;
+}
+.wind >h1{
+    font-size: 20px;
+}
+.wind >h2{
+    font-size: 10px;
+}
+
+
